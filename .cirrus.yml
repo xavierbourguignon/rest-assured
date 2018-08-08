@@ -1,0 +1,6 @@
+task:
+  container:
+    image: maven:3.5.4-jdk-8-alpine
+    cpu: 2
+    memory: 4G
+  script: mvn install
