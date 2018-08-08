@@ -3,4 +3,6 @@ task:
     image: maven:3.5.4-jdk-8-alpine
     cpu: 2
     memory: 4G
+  start_script: echo 'start'
   script: mvn install
+  end_script: echo 'end'
